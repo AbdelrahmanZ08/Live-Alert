@@ -25,3 +25,10 @@ You can install the requirements.txt using `pip`:
 
 ```bash
 pip install -r requirements.txt
+
+```
+
+[Testing server](https://discord.gg/jd8zRAnTEE)
+[Alert VC](https://discord.gg/ZPF2Ay56)
+[Transactions Chat](https://discord.gg/zBQRaJE9)
+[repo](https://github.com/AbdelrahmanZ08/Live-Alerta)
