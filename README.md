@@ -3,7 +3,7 @@
 ## How It Works
 
 1. **Telegram Integration**:
-   - The bot does **not** use the Helius API to get transaction data. Instead, it listens to a private Telegram group where a Safeguard bot is providing transaction alerts. @Livepricealerts
+   - The bot does **not** use the Helius API to get transaction data. Instead, it listens to a [private Telegram group](https://t.me/Livepricealerts) where a Safeguard bot is providing transaction alerts.
    - The Telegram Safeguard bot sends messages to the group with transaction details such as the transaction amount.
 
 2. **Transaction Matching**:
