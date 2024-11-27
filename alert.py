@@ -7,14 +7,17 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
+
 api_id = int(os.getenv('API_ID'))
 api_hash = os.getenv('API_HASH')
-THRESHOLD_AMOUNT = float(os.getenv('THRESHOLD_AMOUNT'))
 DISCORD_CHANNEL_ID = int(os.getenv('DISCORD_CHANNEL_ID'))
 MP3_FILE_PATH = os.getenv('MP3_FILE_PATH')
 FFMPEG_PATH = os.getenv('FFMPEG_PATH')
-TELEGRAM_CHAT = os.getenv('TELEGRAM_GROUP_USERNAME')
+TELEGRAM_CHAT = os.getenv('TELEGRAM_CHAT')
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
+
+
+THRESHOLD_AMOUNT = 4900
 
 intents = discord.Intents.default()
 intents.message_content = True
