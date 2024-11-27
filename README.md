@@ -21,7 +21,7 @@
 - **Telethon** (For interacting with Telegram)
 - **FFmpeg** (For playing audio in the Discord voice channel)
 
-You can install the required dependencies using `pip`:
+You can install the requirements.txt using `pip`:
 
 ```bash
-pip install discord.py telethon python-dotenv
+pip install -r requirements.txt
